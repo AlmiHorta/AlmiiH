@@ -424,7 +424,7 @@ xclip
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
-  color: #05e4f0;
+  color: #09e9f9;
   font-size: 30px;
 }
 .cd-headline.clip span b{
@@ -455,7 +455,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #07d8f8;
+    background-color: #0ee1f4;
 }
 
 #clouds{
@@ -550,7 +550,7 @@ xclip
 }
 
 .section-title p {
-    color: #999;
+    color: #747c7d;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -575,7 +575,7 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+	color: #5d5757;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -685,88 +685,102 @@ xclip
     Skills
 -------------------------------------------------------------------*/
 /* skills section styling */
-.skills .skills-content{
+
+.skills .skills-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.skills .skills-content .column{
-    width: calc(50% - 30px);
+.skills .skills-content .column {
+    width: calc(50% - 40px); /* Half width with margins */
+    margin-left: 20px; /* Add margin on the left */
+    margin-right: 20px; /* Add margin on the right */
+    margin-bottom: 20px; /* Add spacing between columns */
 }
-.skills .skills-content .left .text{
-    font-size: 20px;
+
+.skills .skills-content .left .text {
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+
+.skills .skills-content .left p {
     text-align: justify;
 }
-.skills .skills-content .left a{
+
+.skills .skills-content .left a {
     display: inline-block;
     background: rgb(6, 221, 228);
     color: #f7f6f6;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 20px 15px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid rgb(9, 230, 246);
     transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover{
+
+.skills .skills-content .left a:hover {
     color: rgb(13, 234, 242);
     background: none;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
+
+.skills .skills-content .right .bars {
+    margin-bottom: 30px;
 }
-.skills .skills-content .right .info{
+
+.skills .skills-content .right .info {
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .right span{
+
+.skills .skills-content .right span {
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .right .line{
-    height: 5px;
+
+.skills .skills-content .right .line {
+    height: 7px;
     width: 100%;
     background: rgb(248, 247, 247);
     position: relative;
 }
-.skills .skills-content .right .line::before{
+
+.skills .skills-content .right .line::before {
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(218, 83, 10);
+    background: rgb(5, 222, 233);
 }
-.skills-content .right .html::before{
+
+.skills-content .right .html::before {
     width: 85%;
 }
-.skills-content .right .css::before{
+
+.skills-content .right .css::before {
     width: 85%;
 }
-.skills-content .right .js::before{
+
+.skills-content .right .js::before {
     width: 80%;
 }
-.skills-content .right .php::before{
+
+.skills-content .right .php::before {
     width: 80%;
 }
-.skills-content .right .mysql::before{
+
+.skills-content .right .mysql::before {
     width: 85%;
 }
 
-
-/*------------------------------------------------------------------
-    TESTIMONIALS
--------------------------------------------------------------------*/
-
+/* Testimonials section styling */
 .logos img {
     margin: auto;
     display: block;
@@ -822,7 +836,7 @@ xclip
     padding: 0 0 10px;
     font-size: 20px;
     font-weight: 600;
-	color: #ffffff;
+    color: #ffffff;
 }
 
 .testimonial small,
@@ -841,7 +855,6 @@ xclip
 .testimonial p:after {
     display: none;
 }
-
 
 /*------------------------------------------------------------------
     PRICING TABLES
@@ -1188,7 +1201,7 @@ xclip
 }
 
 .hover-up {
-    background: #076799;
+    background: #03d4f0;
 }
 
 .service-widget .post-media_pp .hover-up {
