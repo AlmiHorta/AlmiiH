@@ -2545,3 +2545,28 @@ select.mobile-device {
         line-height: 38px;
     }
 }
+@media (max-width: 947px) {
+    /* Other existing styles */
+
+    /* Adjust layout for small screens */
+    .about .about-content .left,
+    .about .about-content .right {
+        width: 100%; /* Make both left and right sections occupy full width */
+        margin: 0; /* Remove any existing margins */
+    }
+
+    .about .about-content .left img {
+        margin-bottom: 20px; /* Add spacing between text and image */
+    }
+}
+
+@media (max-width: 690px) {
+    /* Other existing styles */
+
+    /* Adjust layout for smaller screens */
+    .about .about-content .left img {
+        width: 100%; /* Make the image full width */
+        height: auto; /* Ensure image aspect ratio is maintained */
+        margin-bottom: 20px; /* Add spacing between text and image */
+    }
+}
