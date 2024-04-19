@@ -2543,7 +2543,6 @@ select.mobile-device {
         width: 35px;
         font-size: 23px;
         line-height: 38px;
-    }
 }
 @media (max-width: 947px) {
     /* Other existing styles */
